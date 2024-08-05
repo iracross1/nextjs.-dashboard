@@ -112,7 +112,7 @@ export async function POST(request: Request) {
         await client.sql`COMMIT`;
 
         return NextResponse.json({ message: 'Database seeded successfully' });
-    } catch (error) {
+    } catch (error: any) {
         await client.sql`ROLLBACK`;
         return NextResponse.json({ error: error.message }, { status: 500 });
     }
