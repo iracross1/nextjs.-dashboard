@@ -10,7 +10,7 @@ export default async function Page() {
     const revenue = await fetchRevenue();
     const latestInvoices = await fetchLatestInvoices();
     return (
-        <main>
+        <div>
             <h1 className={`${lusitana.className} mb-4 text-xl md:text-2xl`}>
                 Dashboard
             </h1>
@@ -28,7 +28,7 @@ export default async function Page() {
                  <RevenueChart revenue={revenue}  
                  <LatestInvoices latestInvoices={latestInvoices} /> 
             </div>
-        </main>
+        </div>
         
     );
 }
