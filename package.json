@@ -21,6 +21,8 @@
     "tailwindcss": "3.4.4",
     "typescript": "5.5.2",
     "use-debounce": "^10.0.2",
+    "vue": "^2.7.16",
+    "vue-jsx-runtime": "^0.1.0",
     "zod": "^3.23.8"
   },
   "devDependencies": {

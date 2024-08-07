@@ -50,6 +50,12 @@ dependencies:
   use-debounce:
     specifier: ^10.0.2
     version: 10.0.2(react@19.0.0-rc-f38c22b244-20240704)
+  vue:
+    specifier: ^2.7.16
+    version: 2.7.16
+  vue-jsx-runtime:
+    specifier: ^0.1.0
+    version: 0.1.0(vue@2.7.16)
   zod:
     specifier: ^3.23.8
     version: 3.23.8
@@ -2041,6 +2047,14 @@ packages:
 
   /util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
+    dev: false
+
+  /vue-jsx-runtime@0.1.0(vue@2.7.16):
+    resolution: {integrity: sha512-gISr2PorSYKoiUk1Y0E20BrRC1rAiVTQNKLZZYigKFY0HEC9VpUq7nrI7wgXe1DzhsjyWNIpcuvLsiHTi5yBXw==}
+    peerDependencies:
+      vue: '3'
+    dependencies:
+      vue: 2.7.16
     dev: false
 
   /vue@2.7.16:
