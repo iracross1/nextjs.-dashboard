@@ -12,7 +12,7 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "jsx": "preserve",
-    "jsxImportSource": "vue",
+    "jsxImportSource": "@lancercomet/vue2-jsx-runtime",
     "jsx": "react-jsx",
     "jsxImportSource": "vue-jsx-runtime",
     "incremental": true,
