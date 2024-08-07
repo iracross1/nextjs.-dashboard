@@ -13,7 +13,7 @@
     "isolatedModules": true,
     "jsx": "preserve",
     "jsxImportSource": "vue",
-    "jsx": "react-jsxdev",
+    "jsx": "react-jsx",
     "jsxImportSource": "vue-jsx-runtime",
     "incremental": true,
     "plugins": [
